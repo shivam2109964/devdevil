@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1046849466245",
+    "project_id": "devdevil-dff16",
+    "storage_bucket": "devdevil-dff16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046849466245:android:049d257de924f677e11eec",
+        "android_client_info": {
+          "package_name": "com.devdevil.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCzMmKIrNPT_gnatf36feIJJqc5juG6Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
