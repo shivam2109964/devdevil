@@ -1,5 +1,5 @@
 import 'package:devdevil/view/welcome/welcome_back/background.dart';
-import 'package:devdevil/view/welcome/welcome_back/bottomButton.dart';
+import 'package:devdevil/view/welcome/welcome_back/bottom_button.dart';
 import 'package:devdevil/view/welcome/welcome_back/onBoard_image.dart';
 import 'package:devdevil/view/welcome/welcome_back/welcomeText.dart';
 import 'package:flutter/material.dart';

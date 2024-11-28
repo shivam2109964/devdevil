@@ -1,6 +1,6 @@
 name: devdevil
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -25,3 +25,8 @@ flutter:
   assets:
     - assets/welcome_page.png
     - assets/net.png
+    - assets/dev.png
+    - assets/eye.png
+    - assets/eyeOpen.png
+    - assets/google.png
+    - assets/face.png
