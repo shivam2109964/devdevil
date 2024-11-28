@@ -7,10 +7,13 @@ environment:
   sdk: ^3.5.2
 
 dependencies:
+  bloc: ^8.1.4
   change_app_package_name: ^1.4.0
   firebase_core: ^3.6.0
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.6
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_lints: ^4.0.0
@@ -19,3 +22,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/welcome_page.png
+    - assets/net.png
