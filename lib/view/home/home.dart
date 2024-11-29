@@ -117,11 +117,64 @@ class Home extends StatelessWidget {
               ),
             );
           } else if (index == 1) {
-            return Text("hii");
+            return Scaffold(
+              body: Column(
+                children: [Image.asset("assets/network.png")],
+              ),
+            );
           } else if (index == 2) {
-            return Text("hiii");
+            return Center(
+              child: Padding(
+                padding: const EdgeInsets.all(30.0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset("assets/invete.gif"),
+                  ],
+                ),
+              ),
+            );
           } else if (index == 3) {
-            return Text("hiiiii");
+            return Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  const SizedBox(
+                    height: 30,
+                  ),
+                  const CircleAvatar(
+                    backgroundImage: AssetImage("assets/dp.jpg"),
+                    maxRadius: 60,
+                  ),
+                  const SizedBox(
+                    height: 15,
+                  ),
+                  Text(
+                    "Shivam Gupta",
+                    style: GoogleFonts.exo2(
+                        fontSize: 25, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(
+                    height: 5,
+                  ),
+                  Text(
+                    "App Developer",
+                    style: GoogleFonts.exo2(
+                      fontSize: 20,
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 5,
+                  ),
+                  Text(
+                    "BCA, from UIM",
+                    style: GoogleFonts.exo2(
+                      fontSize: 15,
+                    ),
+                  ),
+                ],
+              ),
+            );
           } else {
             return Container();
           }
