@@ -7,7 +7,7 @@ class OneBoardImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image.asset(
-      "\assets/welcome_page.png",
+      "assets/welcome_page.png",
       height: DynamicScreenSize.heightMQ(context: context, reqHeight: 0.5),
     );
   }

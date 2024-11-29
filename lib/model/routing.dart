@@ -1,5 +1,6 @@
 import 'package:devdevil/view/auth/sign_in/sign_in.dart';
 import 'package:devdevil/view/auth/sign_up/sign_up.dart';
+import 'package:devdevil/view/home/home.dart';
 import 'package:devdevil/view/welcome/welcome.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +17,10 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     case SignIn.routeNamed:
       return MaterialPageRoute(
         builder: (_) => const SignIn(),
+      );
+    case Home.routeNamed:
+      return MaterialPageRoute(
+        builder: (_) => const Home(),
       );
     default:
       return MaterialPageRoute(

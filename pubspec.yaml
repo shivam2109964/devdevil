@@ -9,11 +9,13 @@ environment:
 dependencies:
   bloc: ^8.1.4
   change_app_package_name: ^1.4.0
+  firebase_auth: ^5.3.3
   firebase_core: ^3.6.0
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.6
   google_fonts: ^6.2.1
+  google_sign_in: ^6.2.2
 
 dev_dependencies:
   flutter_lints: ^4.0.0
@@ -30,3 +32,6 @@ flutter:
     - assets/eyeOpen.png
     - assets/google.png
     - assets/face.png
+    - assets/devve.png
+    - assets/streak.png
+    - assets/data.png

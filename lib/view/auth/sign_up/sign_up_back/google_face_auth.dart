@@ -1,5 +1,7 @@
 import 'package:devdevil/model/constant/fonts.dart';
+import 'package:devdevil/view_model/auth/sign_up/sign_up_bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class GoogleFaceAuth extends StatelessWidget {
   const GoogleFaceAuth({super.key});
@@ -22,9 +24,17 @@ class GoogleFaceAuth extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Image.asset(
-              "assets/google.png",
-              height: 50,
+            MaterialButton(
+              padding: EdgeInsets.zero,
+              onPressed: () {
+                BlocProvider.of<SignUpBloc>(context).add(
+                  SignUpWithGoogleEvent(),
+                );
+              },
+              child: Image.asset(
+                "assets/google.png",
+                height: 50,
+              ),
             ),
             Image.asset(
               "assets/face.png",
