@@ -172,6 +172,87 @@ class Home extends StatelessWidget {
                       fontSize: 15,
                     ),
                   ),
+                  const SizedBox(
+                    height: 15,
+                  ),
+                  Expanded(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          ListTile(
+                            horizontalTitleGap: 10,
+                            enabled: true,
+                            tileColor: Colors.white,
+                            leading: const Icon(
+                              Icons.person,
+                            ),
+                            title: Text(
+                              "Edit Profile",
+                              style: GoogleFonts.exo2(),
+                            ),
+                            trailing: const Icon(Icons.arrow_forward_rounded),
+                          ),
+                          ListTile(
+                            horizontalTitleGap: 10,
+                            enabled: true,
+                            tileColor: Colors.white,
+                            leading: const Icon(
+                              Icons.stacked_bar_chart_sharp,
+                            ),
+                            title: Text(
+                              "My Stats",
+                              style: GoogleFonts.exo2(),
+                            ),
+                            trailing: const Icon(Icons.arrow_forward_rounded),
+                          ),
+                          ListTile(
+                            horizontalTitleGap: 10,
+                            enabled: true,
+                            tileColor: Colors.white,
+                            leading: const Icon(
+                              Icons.settings,
+                            ),
+                            title: Text(
+                              "Settings",
+                              style: GoogleFonts.exo2(),
+                            ),
+                            trailing: const Icon(Icons.arrow_forward_rounded),
+                          ),
+                          ListTile(
+                            horizontalTitleGap: 10,
+                            enabled: true,
+                            tileColor: Colors.white,
+                            leading: const Icon(
+                              Icons.person_add_alt_1,
+                            ),
+                            title: Text(
+                              "Invite a friend",
+                              style: GoogleFonts.exo2(),
+                            ),
+                            trailing: const Icon(Icons.arrow_forward_rounded),
+                          ),
+                          ListTile(
+                            horizontalTitleGap: 10,
+                            enabled: true,
+                            tileColor: Colors.white,
+                            leading: const Icon(
+                              Icons.help_outline,
+                            ),
+                            title: Text(
+                              "Help",
+                              style: GoogleFonts.exo2(),
+                            ),
+                            trailing: const Icon(Icons.arrow_forward_rounded),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
                 ],
               ),
             );
