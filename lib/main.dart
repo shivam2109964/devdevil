@@ -3,6 +3,7 @@ import 'package:devdevil/model/routing.dart';
 import 'package:devdevil/view/welcome/welcome.dart';
 import 'package:devdevil/view_model/auth/sign_in/sign_in_bloc.dart';
 import 'package:devdevil/view_model/auth/sign_up/sign_up_bloc.dart';
+import 'package:devdevil/view_model/bottom_nav/bottom_nav_bloc.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -33,7 +34,10 @@ class MainApp extends StatelessWidget {
         ),
         BlocProvider(
           create: (context) => SignInBloc(),
-        )
+        ),
+        BlocProvider(
+          create: (context) => BottomNavBloc(),
+        ),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
